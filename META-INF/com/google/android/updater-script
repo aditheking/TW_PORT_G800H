@@ -356,8 +356,25 @@ set_metadata("/system/vendor/media", "uid", 0, "gid", 2000, "mode", 0755, "capab
 set_metadata("/system/xbin/dexdump", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 
 # KERNEL
-ui_print("Flashing Kernel");
-package_extract_file("boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+ui_print("Detecting device...");
+ui_print("Device Detected:");
+ui_print(getprop("ro.product.device"));
+ui_print("");
+if getprop("ro.product.device") == "ms013g"
+  then
+  ui_print(" Flashing Grand 2 ms013g special kernel");
+  package_extract_file("ms013g/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+else
+  ui_print("");
+endif;
+
+if getprop("ro.product.device") == "ms01lte"
+  then
+  ui_print(" flashing Grand2  ms01lte special kernel");
+  package_extract_file("ms01lte/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+else
+  ui_print("");
+endif;
 
 # CUSTOM SCRIPTS
 ui_print("Rooting rom with supersu...");
