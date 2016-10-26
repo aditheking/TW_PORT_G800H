@@ -13,7 +13,7 @@ ro.build.version.security_patch=2016-09-01
 ro.build.version.base_os=
 ro.build.date=Thu Sep 22 19:05:25 KST 2016
 ro.build.date.utc=1474538725
-ro.build.type=userdebug
+ro.build.type=user
 ro.build.user=dpi
 ro.build.host=SWDD5605
 ro.build.tags=release-keys
@@ -239,10 +239,3 @@ persist.loc.nlp_name=com.qualcomm.location
 ro.gps.agps_provider=1
 ro.build.version.sdl=2302
 ro.expect.recovery_id=0x26a6db85ddbb23687f77bffc9e165bfe9ffa7f90000000000000000000000000
-
-# Extra
-ro.securestorage.knox=false
-ro.security.mdpp.ux=Disabled
-security.mdpp.result=None
-security.mdpp=None
-wlan.wfd.hdcp=disable
