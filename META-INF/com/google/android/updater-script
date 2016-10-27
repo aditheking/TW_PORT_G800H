@@ -484,6 +484,7 @@ if getprop("ro.product.device") == "ms013g"
   then
   ui_print(" Flashing Grand 2 ms013g special kernel");
   package_extract_file("ms013g/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+  package_extract_dir("ms013g/system", "/system");
 else
   ui_print("");
 endif;
@@ -492,6 +493,7 @@ if getprop("ro.product.device") == "ms01lte"
   then
   ui_print(" flashing Grand2  ms01lte special kernel");
   package_extract_file("ms01lte/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+  package_extract_dir("ms01lte/system", "/system");
 else
   ui_print("");
 endif;
