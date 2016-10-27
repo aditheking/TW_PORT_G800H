@@ -299,8 +299,6 @@ symlink("/firmware/image/widevine.b01", "/system/vendor/firmware/widevine.b01");
 symlink("/firmware/image/widevine.b02", "/system/vendor/firmware/widevine.b02");
 symlink("/firmware/image/widevine.b03", "/system/vendor/firmware/widevine.b03");
 symlink("/firmware/image/widevine.mdt", "/system/vendor/firmware/widevine.mdt");
-
-# Permissions
 ui_print("-- Setting & fixing permissions"); 
 set_metadata_recursive("/system", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 set_metadata_recursive("/system/bin", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
