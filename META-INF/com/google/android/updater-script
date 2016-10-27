@@ -508,7 +508,6 @@ ui_print("Flashing Busybox");
 package_extract_dir("META-INF/ADD-ONS/busybox", "/tmp/busybox");
 run_program("/sbin/busybox", "unzip", "/tmp/busybox/UPDATE-Busybox.Installer.v1.24.1-ALL-signed.zip", "META-INF/com/google/android/*", "-d", "/tmp/busybox");
 run_program("/sbin/busybox", "sh", "/tmp/busybox/META-INF/com/google/android/update-binary", "dummy", "1", "/tmp/busybox/UPDATE-Busybox.Installer.v1.24.1-ALL-signed.zip");
-set_progress(0.900000);
 
 set_progress(1.000000);
 ui_print("***********************************************");
