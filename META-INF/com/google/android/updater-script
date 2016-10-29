@@ -22,6 +22,29 @@ ui_print("Installing AdityaROM v4.0...");
 ui_print("");
 package_extract_dir("system", "/system");
 
+# KERNEL
+ui_print("Detecting device...");
+ui_print("Device Detected:");
+ui_print(getprop("ro.product.device"));
+ui_print("");
+if getprop("ro.product.device") == "ms013g"
+  then
+  ui_print(" Flashing Grand 2 ms013g special kernel");
+  package_extract_file("ms013g/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+  package_extract_dir("ms013g/system", "/system");
+else
+  ui_print("");
+endif;
+
+if getprop("ro.product.device") == "ms01lte"
+  then
+  ui_print(" flashing Grand2  ms01lte special kernel");
+  package_extract_file("ms01lte/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+  package_extract_dir("ms013g/system", "/system");
+else
+  ui_print("");
+endif;
+
 # SYMLINKS
 ui_print("symlinking...");
 symlink("app_process32", "/system/bin/app_process");
@@ -319,28 +342,6 @@ set_metadata("/system/vendor/lib/rfsa", "uid", 0, "gid", 2000, "mode", 0755, "ca
 set_metadata("/system/vendor/lib/rfsa/adsp", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 set_metadata("/system/vendor/media", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 set_metadata_recursive("/system/xbin", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-
-# KERNEL
-ui_print("Detecting device...");
-ui_print("Device Detected:");
-ui_print(getprop("ro.product.device"));
-ui_print("");
-if getprop("ro.product.device") == "ms013g"
-  then
-  ui_print(" Flashing Grand 2 ms013g special kernel");
-  package_extract_file("ms013g/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
-  package_extract_dir("ms013g/system", "/system");
-else
-  ui_print("");
-endif;
-
-if getprop("ro.product.device") == "ms01lte"
-  then
-  ui_print(" flashing Grand2  ms01lte special kernel");
-  package_extract_file("ms01lte/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
-else
-  ui_print("");
-endif;
 
 # CUSTOM SCRIPTS
 ui_print("Rooting rom with supersu...");
