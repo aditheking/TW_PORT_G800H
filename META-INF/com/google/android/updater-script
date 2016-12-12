@@ -200,7 +200,6 @@ symlink("/system/lib/libSLPF_security.so", "/system/priv-app/SamsungLinkPlatform
 symlink("/system/lib/libSLPF_transcoder_jni_kk.so", "/system/priv-app/SamsungLinkPlatform/lib/arm/libSLPF_transcoder_jni_kk.so");
 symlink("/system/lib/libSLPF_transcoder_jni_ll.so", "/system/priv-app/SamsungLinkPlatform/lib/arm/libSLPF_transcoder_jni_ll.so");
 symlink("/system/lib/libswiftkeysdk-java.so", "/system/app/SamsungIME/lib/arm/libswiftkeysdk-java.so");
-symlink("/system/lib/modules/pronto/pronto_wlan.ko", "/system/lib/modules/wlan.ko");
 symlink("toolbox", "/system/bin/cat");
 symlink("toolbox", "/system/bin/chcon");
 symlink("toolbox", "/system/bin/chmod");
