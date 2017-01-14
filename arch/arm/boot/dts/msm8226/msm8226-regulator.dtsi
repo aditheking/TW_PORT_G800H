@@ -74,7 +74,7 @@
 			<1140000 1140000 1140000>,
 			<1140000 1140000 1140000>;
 		qcom,cpr-voltage-ceiling = <1140000 1150000 1280000>;
-		qcom,cpr-voltage-floor = <1140000 1140000 1140000>;
+		qcom,cpr-voltage-floor = <1050000 1050000 1100000>;
 		vdd-apc-supply = <&pm8226_s2>;
 
 		vdd-mx-supply = <&pm8226_l3_ao>;
