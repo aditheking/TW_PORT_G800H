@@ -41,6 +41,14 @@ else
   ui_print("");
 endif;
 
+if getprop("ro.product.device") == "ms01ltektt"
+  then
+  ui_print(" - flashing Grand2 kernel");
+  package_extract_file("ms01ltektt/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+else
+  ui_print("");
+endif;
+
 ui_print("Making symlinks ...");
 show_progress(0.500000, 0);
 # updater-script-10_SYMLINKS
