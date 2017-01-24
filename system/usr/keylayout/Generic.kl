@@ -159,7 +159,7 @@ key 128   MEDIA_STOP
 # key 136 "KEY_FIND"
 # key 137 "KEY_CUT"
 # key 138 "KEY_HELP"
-key 139   MENU
+key 139   APP_SWITCH
 key 140   CALCULATOR
 # key 141 "KEY_SETUP"
 key 142   SLEEP
@@ -216,7 +216,7 @@ key 180   NUMPAD_RIGHT_PAREN
 # key 192   F22
 # key 193   F23
 # key 194   F24
-key 195   USER
+# key 195 (undefined)
 # key 196 (undefined)
 # key 197 (undefined)
 # key 198 (undefined)
@@ -257,9 +257,6 @@ key 231   CALL #(CHN FOLDER MODEL)
 
 # samsung 
 key 252   USER
-
-# samsung 
-key 253   WAKEUP_UNLOCK
 
 # samsung
 key 254   APP_SWITCH
@@ -315,8 +312,6 @@ key 316   BUTTON_MODE
 key 317   BUTTON_THUMBL
 key 318   BUTTON_THUMBR
 
-#input_fw gamepad button
-key 319   BUTTON_GAME
 
 # key 352 "KEY_OK"
 key 353   DPAD_CENTER
@@ -382,9 +377,6 @@ key 403   CHANNEL_DOWN
 # key 413 "KEY_DIGITS"
 # key 414 "KEY_TEEN"
 # key 415 "KEY_TWEN"
-
-#input_fw 2015-12-24 gamepad button (request by iss.song, Graphics R&D Group)
-key 417 BUTTON_GAME #(KEY_GAMES 0x01a1)
 
 key 429   CONTACTS
 key 430   MESSAGE
@@ -460,14 +452,6 @@ key 551 ENDCALL     #(CHN FOLDER MODEL)
 
 key 580   APPSELECT
 key 582   VOICE_ASSIST
-
-
-key 708 QPANEL_ON_OFF
-
-# 753~ 760 is key event for special event
-#key 753   KEY_CP_GRIP
-#key 754   KEY_TSP_NONE_KEY2
-key 755   TA_CHARGING
 
 # Keys defined by HID usages
 key usage 0x0c006F BRIGHTNESS_UP
