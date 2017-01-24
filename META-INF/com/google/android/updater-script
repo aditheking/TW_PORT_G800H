@@ -46,6 +46,7 @@ if getprop("ro.product.device") == "s3ve3g" || getprop("ro.product.device") == "
 then
 ui_print("Flashing S3 neo Kernel");
 package_extract_file("s3ve3g/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+package_extract_dir("s3ve3g/system", "/system");
 else
 ui_print("");
 endif;
