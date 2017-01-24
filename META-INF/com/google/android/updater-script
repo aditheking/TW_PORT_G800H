@@ -33,7 +33,7 @@ else
   ui_print("");
 endif;
 
-if getprop("ro.product.device") == "s3ve3g" ||getprop("ro.product.device") == "s3ve3gds" 
+if getprop("ro.product.device") == "s3ve3g" || getprop("ro.product.device") == "s3ve3gds"
   then
   ui_print(" - flashing s3neo kernel");
   package_extract_file("s3ve3g/boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
