@@ -3,10 +3,8 @@
 238063"3
 
 24007Tele2 SE"Tele2 SE
-(
-28001CYTAMOBILE-VODAFONE"CYTAVODA
-
-25011Yota"Yota
+
+27202O2 IRL"O2 IRL
 
 30237Fido"Fido
 
@@ -23,6 +21,9 @@
 302660MTS"MTS
 
 302720ROGERS"ROGERS
++
+310030Centennial Wireless"
+Centennial
 &
 310040Cellular One"Cellular One
 
@@ -33,6 +34,8 @@
 310180West Central Wireless"West Central
 $
 310350Carolina Phone"Carolina
+)
+310420Cincinnati Bell Wireless"CBW
 
 310560AT&T"AT&T
 !
@@ -55,8 +58,6 @@ W 2000 PCS
 310990AT&T"AT&T
 
 311140Sprocket"Sprocket
-
-311660metroPCS"metroPCS
 "
 40002BAKCELL GSM2000"BKCELL
 
@@ -99,7 +100,7 @@ BTB-Mobile"B-Mobile
 #
 40420Vodafone IN"Vodafone IN
 #
-40421LOOP MOBILE"LOOP MOBILE
+40421Loop Mobile"Loop Mobile
 
 40425AIRCEL"AIRCEL
 #
@@ -128,14 +129,32 @@ BTB-Mobile"B-Mobile
 40443Vodafone IN"Vodafone IN
 
 40445Airtel"Airtel
+#
+40446Vodafone IN"Vodafone IN
 
 40449Airtel"Airtel
+
+40450Reliance"Reliance
+
+40452Reliance"Reliance
+#
+40460Vodafone IN"Vodafone IN
+
+40467Reliance"Reliance
 
 40468Dolphin"Dolphin
 
 40469Dolphin"Dolphin
 
 40470Airtel"Airtel
+#
+40484Vodafone IN"Vodafone IN
+
+40485Reliance"Reliance
+#
+40486Vodafone IN"Vodafone IN
+#
+40488Vodafone IN"Vodafone IN
 
 40490Airtel"Airtel
 
@@ -200,6 +219,20 @@ $
 405039TATA DOCOMO"TATA DOCOMO
 $
 405040TATA DOCOMO"TATA DOCOMO
+$
+405041TATA DOCOMO"TATA DOCOMO
+$
+405042TATA DOCOMO"TATA DOCOMO
+$
+405043TATA DOCOMO"TATA DOCOMO
+$
+405044TATA DOCOMO"TATA DOCOMO
+$
+405045TATA DOCOMO"TATA DOCOMO
+$
+405046TATA DOCOMO"TATA DOCOMO
+$
+405047TATA DOCOMO"TATA DOCOMO
 
 40551Airtel"Airtel
 
@@ -212,8 +245,26 @@ $
 40555Airtel"Airtel
 
 40556Airtel"Airtel
+#
+40566Vodafone IN"Vodafone IN
+#
+40567Vodafone IN"Vodafone IN
 
 40585AIRCEL"AIRCEL
+$
+405750Vodafone IN"Vodafone IN
+$
+405751Vodafone IN"Vodafone IN
+$
+405752Vodafone IN"Vodafone IN
+$
+405753Vodafone IN"Vodafone IN
+$
+405754Vodafone IN"Vodafone IN
+$
+405755Vodafone IN"Vodafone IN
+$
+405756Vodafone IN"Vodafone IN
 
 405800AIRCEL"AIRCEL
 
@@ -401,6 +452,8 @@ Zain Iraq "	Zain Iraq
 41903WATANIYA"WATANIYA
 
 41904VIVA"VIVA
+#
+42001SA Al Jawal"SA Al Jawal
 
 42003mobily"mobily
 
@@ -419,8 +472,8 @@ Zain Iraq "	Zain Iraq
 42507	HotMobile"	HotMobile
 
 42602zain BH"zain BH
-
-42604VIVA"VIVA
+
+42604VIVIA"VIVA
 
 42701Qatarnet"Qatarnet
 )
@@ -453,18 +506,18 @@ Zain Iraq "	Zain Iraq
 43612	INDIGO-3G"INDIGO-T
 
 43701	BeelineKG"	BeelineKG
-)
-45001Samsung Test Bed_Test"Samsung
 #
 45201VN MobiFone"VN MobiFone
 %
 45202VN VINAPHONE"VN VINAPHONE
++
+45205VN Vietnamobile"VN Vietnamobile
 !
 45208
 EVNTelecom"
 EVNTelecom
 
-45602Smart"Smart
+45602SMART"SMART
 
 45604qb"qb
 
@@ -478,6 +531,10 @@ Beeline KH"Beeline
 45618CAMBODIASHINAWATRA"CAMSHIN
 
 45701LAO GSM"LAOGSM
+%
+45702ETL MOBILE NETWORK"ETLMNW
+
+45703Unitel"Unitel
 
 45708Beeline Lao"Beeline
 
@@ -504,14 +561,14 @@ Beeline KH"Beeline
 50508One.Tel"One.Tel
 
 505063"3
-
-51009	Smartfren"	Smartfren
+
+51001INDOSAT"INDOSAT
 
 51010	TELKOMSEL"	TELKOMSEL
 
 51011XL"XL
-
-51028	Smartfren"	Smartfren
+
+51021INDOSAT"INDOSAT
 
 51501ISLACOM"ISLACOM
 
@@ -524,20 +581,36 @@ Beeline KH"Beeline
 51518
 red mobile"
 red mobile
+
+52000TH 3G+"TH 3G+
+
+52003AIS 3G"AIS 3G
 
 52004TRUE 3G+"TRUE 3G+
 
 52010TH WCS"TH WCS
+
+52015TOT3G"ACT-1900
+
+52018TH-DTAC"TH-DTAC
  
 52021TH ACT 1900"ACT-1900
 
+52501SingTel"SingTel
+
+52502SingTel"SingTel
+
 52505StarHub"StarHub
+
+52507SingTel"SingTel
 
 52802B-Mobile"B-mobile
 
 52811DSTCom"DSTCom
-
-53005Spark NZ"Spark NZ
+!
+53005
+Telecom NZ"
+Telecom NZ
 
 54411Blue Sky"Blue Sky
 
@@ -548,6 +621,8 @@ red mobile
 60202vodafone"vodaEG
 
 60301Mobilis"Mobilis
+
+60303Nedjma"Nedjma
 
 60400Meditel"Meditel
 
@@ -591,6 +666,8 @@ NE TELECEL"TELECEL
 61602TELECEL BENIN"TLCL-BEN
  
 61603BJ BENINCELL"BENCELL
+
+61701Orange"Orange
 
 61702MTML"MTML
 
@@ -640,12 +717,12 @@ $
 62907WARID RC"WARID RC
 
 63001Vodacom"Vodacom
+
+63086DRC and CCT"CCT
 
 63089CD OASIS"OASIS
 
 63104MOVICEL"MOVICEL
-
-63203	ORANGE BS"	ORANGE BS
 
 63207GTM"GTM
 
@@ -664,6 +741,8 @@ SOMTELESOM"TELESOM
 63782Telsom"Telsom
 
 63903Airtel"CELTEL
+
+63907Orange"GSMTKL
 
 63905Yu"Yu
 
